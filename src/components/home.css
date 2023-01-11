@@ -1,0 +1,62 @@
+/* Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+/* Top header styling */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topDiv{
+    font-size: 5vh;
+    /* margin: 0%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title of page */
+#title{
+  font-family: 'Rammetto One', cursive;
+  font-weight: lighter;
+  font-size: 4rem;
+  font-style:oblique;
+}
+
+/* Register Button Styling */
+.header button{
+height: 6vh;
+width: 7vw;
+font-size: 1rem;
+font-weight: bolder;
+background-color:black;
+color: white;
+border-radius: 5vh;
+cursor: pointer;
+}
+.header button:hover{
+color: darkred;
+background-color: white;
+font-style: oblique;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        width: 100%;
+    }
+    .header button{
+        height: 4vh;
+        width: 18vw;
+        font-size: 0.8rem;
+        font-weight: bolder;
+        background-color:black;
+        color: white;
+        border-radius: 5vh;
+        cursor: pointer;
+    }
+    #title{
+        font-size: 2.5rem;
+    }
+
+
+  
+}

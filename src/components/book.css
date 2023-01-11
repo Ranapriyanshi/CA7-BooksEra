@@ -1,0 +1,162 @@
+/* Div for available category Section */
+#centralDiv{
+background-color:grey;
+height: 18vh;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+color: white;
+}
+
+#categories{
+font-size: 1.5rem;
+}
+
+#filterCategory{
+display: flex;
+flex-wrap: wrap;
+width: 96vw;
+gap: 4vh;
+margin-top: 2vh;
+}
+
+.category{
+height: 15vh;
+width: 12vw;
+border-radius: 0.5vh;
+display: flex;
+flex-direction: row;
+box-shadow: 1vh 1vh 2vh black;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bolder;
+color: black;
+font-style: italic;
+}
+
+
+/* Indivisual Category styling */
+#c1{
+background-color: orange;
+}
+
+#c2{
+background-color:aquamarine;
+}
+
+#c3{
+background-color:darkmagenta;
+}
+
+#c4{
+background-color:cornflowerblue;
+}
+
+#c5{
+background-color:crimson;
+}
+
+#c6{
+background-color:gold;
+}
+#c7{
+background-color:thistle;
+}
+
+/* Category Hover Styling */
+
+/* #c1:hover{
+background-color: white;
+color: orange;
+border: 3px solid orange;
+}
+#c2:hover{
+background-color: white;
+color: aquamarine;
+border: 3px solid aquamarine;
+}
+#c3:hover{
+background-color: white;
+color: darkmagenta;
+border: 3px solid darkmagenta;
+}
+#c4:hover{
+background-color: white;
+color: cornflowerblue;
+border: 3px solid cornflowerblue;
+}
+#c5:hover{
+background-color: white;
+color: crimson;
+border: 3px solid crimson;
+}
+#c6:hover{
+background-color: white;
+color: gold;
+border: 3px solid gold;
+}
+#c7:hover{
+background-color: white;
+color: thistle;
+border: 3px solid thistle;
+} */
+
+/* Books Section */
+#main{
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search Div Styling */
+.searchdiv{
+height: 5vh;
+width: 30vw;
+border-radius: 15vh;
+font-weight: bolder;
+text-align: center;
+background-color: grey;
+color: white;
+}
+
+::placeholder{
+color: white;
+}
+
+/* Indivisual Book Display Styling */
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.book{
+margin: 7vh;
+width: 50vh;
+border-radius: 7px;
+max-width: 25vh;
+
+}
+.book img{
+width: 25vh;
+margin: 1vh;
+box-shadow: 0 0 4px grey;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 600px){
+    #centralDiv{
+        display: none   ;
+    }
+    .searchdiv{
+        width: 50vw;
+    }
+
+  
+}
+
+

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+h5{
+  color: white;
+  padding-left: 2vh;
+  padding-top: 0.5vh;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 60vh;
+  margin-top: 5vh;
+  border-radius: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('./components/formbackdrop.jpg');
+}
+
+
+#footer{
+  background-color: grey;
+  height: 5vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  letter-spacing: 0.05rem;
+}
+
+@media only screen and (max-width: 600px){
+  #form button:hover{
+    background-color: white;
+    color: black;
+  }
+  #form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 60vh;
+    margin-top: 5vh;
+    border-radius: 10vh;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-image: url('./components/formbackdrop.jpg');
+  }
+
+
+}
